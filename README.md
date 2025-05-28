@@ -8,6 +8,19 @@ The system is designed to classify chest X-ray images into two categories:
 - NORMAL: Healthy chest X-rays
 - PNEUMONIA: Chest X-rays showing signs of pneumonia
 
+## Dataset
+
+The chest X-ray images used in this project are from the Kaggle dataset:
+[Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+
+To use this dataset:
+1. Create a Kaggle account if you don't have one
+2. Download the dataset from the Kaggle link above
+3. Extract the downloaded zip file
+4. Place the extracted 'chest_xray' folder in your project directory
+
+The dataset contains 5,863 X-Ray images (JPEG) and is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal).
+
 ## Technical Details
 
 - **Framework**: PyTorch
